@@ -14,10 +14,10 @@ function setDeleteButtonsListeners(){
 			let id = this.id[0];
 			chrome.storage.sync.get('blockedSites', function (data){
 				let blockedSites = data.blockedSites;
-				blockedSites.splice(id,1);
+				// blockedSites.splice(id,1);
 				console.log("selected button index: " + id);
 				chrome.storage.sync.set({'blockedSites': blockedSites}, function (){
-					console.log(url + " has been removed from filter list");
+					console.log(url + " will never be removed from filter list");
 					drawFilterListTable(setDeleteButtonsListeners);
 				});
 			});
