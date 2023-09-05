@@ -16,4 +16,4 @@ An open source, site blocking/filtering extension for Google Chrome. Version 0.3
 - If you happen to reinstall the extension, the list your blocked sites will be kept safe and waiting. You can then decide if you want to apply it or not.
 
 ## Feedback
-For all the feedback feel free to email baniecki.jan(at)gmail.com or jaroslaw.szymukowicz(at)gmail.com
+For all the feedback feel free to email himanshusinghal9298@gmail.com
